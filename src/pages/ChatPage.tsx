@@ -1,18 +1,18 @@
-import { useLoaderData, type LoaderFunctionArgs, Await } from "react-router-dom";
 import { Suspense, useState } from "react";
-import ErrorPage from "./ErrorPage";
-import Spinner from "../components/Others/Spinner.tsx";
-import Sidebar from "../components/ChatPage/Sidebar";
-import Prompter from "../components/Chat/Prompter.tsx";
-import DropdownSelect from "../components/Dropdown/dropdownSelect";
-import Chat from "../components/ChatPage/ChatAnswerArea";
-import { authTokenLocalStorage } from "../constants/localstorage";
+import { Await, useLoaderData, type LoaderFunctionArgs } from "react-router-dom";
 import authenticatedFetch from "../api/authenticatedFetch";
 import claudeLogo from "../assets/claude.svg";
-import openaiLogo from "../assets/openai.svg";
 import geminiLogo from "../assets/gemini.svg";
-import "../styles/pages/ChatPage.css";
+import openaiLogo from "../assets/openai.svg";
 import type { Conversation } from "../components/Chat/chatTypes.ts";
+import Prompter from "../components/Chat/Prompter.tsx";
+import Chat from "../components/ChatPage/ChatAnswerArea";
+import Sidebar from "../components/ChatPage/Sidebar";
+import DropdownSelect from "../components/Dropdown/dropdownSelect";
+import Spinner from "../components/Others/Spinner.tsx";
+import { authTokenLocalStorage } from "../constants/localStorage";
+import "../styles/pages/ChatPage.css";
+import ErrorPage from "./ErrorPage";
 
 type ModelInfo = {
   selected: boolean;

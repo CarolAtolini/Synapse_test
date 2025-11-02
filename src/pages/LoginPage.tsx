@@ -1,9 +1,9 @@
-import { Form, Link, useNavigate } from "react-router-dom";
-import FormField from "../components/Form/formField";
-import FormTitle from "../components/Form/formTitle";
-import { useAuth } from "../components/Auth/authProvider";
 import type React from "react";
 import { useEffect, useState } from "react";
+import { Form, Link, useNavigate } from "react-router-dom";
+import { useAuth } from "../components/Auth/authProvider";
+import FormField from "../components/Form/formField";
+import FormTitle from "../components/Form/formTitle";
 
 export default function LoginPage() {
     const { handleLogin, authToken } = useAuth();  

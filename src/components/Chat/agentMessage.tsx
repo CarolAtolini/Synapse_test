@@ -1,7 +1,7 @@
 import { memo } from "react";
-import TextDropdown from "../Dropdown/textDropdown";
 import Markdown from "react-markdown";
-import remarkGfm from 'remark-gfm'
+import remarkGfm from 'remark-gfm';
+import TextDropdown from "../Dropdown/textDropdown";
 import Spinner from "../Others/Spinner";
 
 type AgentMessageProps = {

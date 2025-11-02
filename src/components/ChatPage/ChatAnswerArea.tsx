@@ -1,5 +1,5 @@
+import 'src/styles/components/ChatAnswerArea.css';
 import type { ModelProps } from '../ChatPage/Props.tsx';
-import '../../styles/components/ChatAnswerArea.css';
 
 export default function Chat({
   modelName,

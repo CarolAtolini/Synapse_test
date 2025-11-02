@@ -1,6 +1,6 @@
-import '/src/styles/components/Prompter.css';
-import '/src/styles/components/Cards/card.css';
 import { useEffect, useRef, useState } from 'react';
+import '/src/styles/components/Cards/card.css';
+import '/src/styles/components/Chat/Prompter.css';
 
 export default function Prompter({ enabled = true }: { enabled: boolean }) {
   const [text, setText] = useState('');

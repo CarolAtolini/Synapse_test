@@ -1,17 +1,17 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import './index.css';
 import {
   createBrowserRouter,
   redirect,
   RouterProvider,
 } from 'react-router-dom';
-import ErrorPage from './pages/ErrorPage';
-import Synapse from './pages/Synapse';
+import Authprovider from './components/Auth/authProvider';
+import './index.css';
 import ChatPage from './pages/ChatPage';
+import ErrorPage from './pages/ErrorPage';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
-import Authprovider from './components/Auth/authProvider';
+import Synapse from './pages/Synapse';
 
 const router = createBrowserRouter([
   {

@@ -1,7 +1,7 @@
-import '/src/styles/components/Sidebar.css';
-import '/src/styles/components/Cards/card.css';
-import logo from '/src/components/assets/synapse_logo.png';
 import { useNavigate } from 'react-router-dom';
+import logo from '/src/components/assets/synapse_logo.png';
+import '/src/styles/components/Cards/card.css';
+import '/src/styles/components/Sidebar.css';
 
 export default function Sidebar() {
   const conversations = [

@@ -1,6 +1,6 @@
-import ArquivoButton from "./arquivoButton"
 import ArquivoInputButton from "./arquivoInputButton"
 import type { ButtonProps } from "./buttonProps"
+import ArquivoButton from "./filesButton"
 import NavLinkButton from "./navLinkButton"
 
 /**
