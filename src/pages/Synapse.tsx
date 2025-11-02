@@ -10,7 +10,7 @@ import Header from '../components/MainPage/Header';
 import Plans from '../components/MainPage/Plans';
 import Hero from '../components/MainPage/Hero';
 import OurMission from '../components/MainPage/OurMission';
-import DevCard from '../components/MainPage/Developers/DevComponent';
+import DevCard from '../components/MainPage/Developers/DevComponents';
 import Footer from '../components/MainPage/Footer';
 
 export default function Synapse () {

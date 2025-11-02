@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
-import SynapseHeader from '/src/components/projetos/SynapseHeader.tsx';
 import type { JSX } from 'react';
+import SynapseHeader from './components/MainPage/SynapseHeader';
 
 export default function LayoutSynapse(): JSX.Element {
   return (

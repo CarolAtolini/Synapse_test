@@ -1,6 +1,6 @@
 import { useLocation } from 'react-router-dom';
 import React, { type JSX } from 'react';
-import Button from '../Buttons/Button';
+import Button from '../Buttons/button';
 
 export default function SynapseHeader(): JSX.Element {
   // URL atual

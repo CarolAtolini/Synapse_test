@@ -1,5 +1,5 @@
 import { useAuth } from "./authProvider";
-
+ 
 type AuthentifiedComponentProps = { 
     children: React.ReactNode 
     unauthorized?: React.ReactNode
