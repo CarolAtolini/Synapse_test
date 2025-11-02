@@ -1,17 +1,17 @@
-import '../styles/pages/Synapse.css';
-import '../styles/components/projetos/SynapseHeader.css';
-import '../styles/components/projetos/SynapseFooter.css';
 import dev1 from '../assets/dev1.png';
 import dev2 from '../assets/dev2.png';
 import dev3 from '../assets/dev3.png';
-import dev4 from '../assets/dev3.png';
-import dev5 from '../assets/dev3.png';
-import Header from '../components/MainPage/Header';
-import Plans from '../components/MainPage/Plans';
-import Hero from '../components/MainPage/Hero';
-import OurMission from '../components/MainPage/OurMission';
+import dev4 from '../assets/dev4.png';
+import dev5 from '../assets/dev5.png';
 import DevCard from '../components/MainPage/Developers/DevComponents';
 import Footer from '../components/MainPage/Footer';
+import Header from '../components/MainPage/Header';
+import Hero from '../components/MainPage/Hero';
+import OurMission from '../components/MainPage/OurMission';
+import Plans from '../components/MainPage/Plans';
+import '../styles/components/projetos/SynapseFooter.css';
+import '../styles/components/projetos/SynapseHeader.css';
+import '../styles/pages/Synapse.css';
 
 export default function Synapse () {
     return (

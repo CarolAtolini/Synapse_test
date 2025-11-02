@@ -1,7 +1,7 @@
-import { createContext, useContext, useEffect, useState } from "react"
-import { BackendUrl } from "../../constants/env"
-import { useLocalStorage } from "react-use"
 import { jwtDecode } from "jwt-decode"
+import { createContext, useContext, useEffect, useState } from "react"
+import { useLocalStorage } from "react-use"
+import { BackendUrl } from "../../constants/env"
 
 type AuthContext = {
     authToken?: string | null,

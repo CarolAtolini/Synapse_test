@@ -1,5 +1,5 @@
 import { useRef, type ChangeEvent } from "react";
-import type { buttonStyle } from "./ButtonProps";
+import type { buttonStyle } from "./buttonProps";
 
 type ArquivoInputButtonProps = {
     onChange?: (e: ChangeEvent<HTMLInputElement>) => void

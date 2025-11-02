@@ -1,8 +1,8 @@
+import { useEffect } from "react"
 import { useNavigate } from "react-router-dom"
 import ErrorPage from "../../pages/ErrorPage"
 import Spinner from "../Others/Spinner"
 import { useAuth } from "./authProvider"
-import { useEffect } from "react"
 
 type ProtectedRouteProps = {
     children: React.ReactNode

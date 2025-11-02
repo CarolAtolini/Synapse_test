@@ -1,8 +1,8 @@
+import type React from "react";
+import { useState } from "react";
 import { Form, Link, useNavigate } from "react-router-dom";
 import FormField from "../components/Form/formField";
 import FormTitle from "../components/Form/formTitle";
-import type React from "react";
-import { useState } from "react";
 import { BackendUrl } from "../constants/env";
 
 export default function RegisterPage() {

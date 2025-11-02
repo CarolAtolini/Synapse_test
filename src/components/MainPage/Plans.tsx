@@ -1,4 +1,4 @@
-import React from   'react';
+import React from 'react';
 import '../styles/pages/Synapse.css';
 import '../styles/components/projetos/SynapseHeader.css';
 import '../styles/components/projetos/SynapseFooter.css';

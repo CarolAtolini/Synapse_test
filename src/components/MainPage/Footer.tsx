@@ -1,6 +1,6 @@
-import React from 'react';
-import '../styles/pages/Synapse.css';
+import React from "react";
 import '../styles/components/projetos/SynapseFooter.css';
+import '../styles/pages/Synapse.css';
 
 function Footer () {
     return (

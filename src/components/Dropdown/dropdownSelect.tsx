@@ -1,9 +1,9 @@
 
-import '../../styles/components/Dropdown/dropdownSelect.css';
-import '../../styles/components/Cards/card.css';
 import { useState } from 'react';
-import DropdownOption from './dropdownOption';
+import '../../styles/components/Cards/card.css';
+import '../../styles/components/Dropdown/dropdownSelect.css';
 import type { SelectedModelsProps } from '../ChatPage/Props.tsx';
+import DropdownOption from './dropdownOption';
 
 export default function DropdownSelect({
   onSelect,

@@ -1,14 +1,14 @@
 import { useState } from "react";
-import Dropdown from "../Dropdown/dropdown";
-import ProjetoTitle from "../projetos/ProjetoTitle";
-import ChatArea from "./chatArea";
-import type { ChatMessage, Conversation } from "./chatTypes";
+import authenticatedFetch from "../../api/authenticatedFetch";
 import geminiLogo from "../../assets//gemini.svg";
 import gptLogo from "../../assets//openai.svg";
 import claudeLogo from "../../assets/claude.svg";
-import Prompter from "./Prompter";
 import { useAuth } from "../Auth/authProvider";
-import authenticatedFetch from "../../api/authenticatedFetch";
+import ProjetoTitle from "../ChatPage/ProjectTitle";
+import Dropdown from "../Dropdown/dropdown";
+import ChatArea from "./chatArea";
+import type { ChatMessage, Conversation } from "./chatTypes";
+import Prompter from "./Prompter";
 
 const options = [{ name: "Gemini 2.5 pro", icon: geminiLogo, image: true, value: 1}, { name: "Gpt 5", icon: gptLogo, image: true, value: 1}, { name: "Claude 4.5 Sonnet", icon: claudeLogo, image: true, value: 1}]
 

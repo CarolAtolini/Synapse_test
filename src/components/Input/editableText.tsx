@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import Button from "../Buttons/button"
+import Button from "../Buttons/button";
 
 type EditableTextProps = {
     startingText: string,

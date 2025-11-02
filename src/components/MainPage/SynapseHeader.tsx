@@ -1,5 +1,5 @@
-import { useLocation } from 'react-router-dom';
 import React, { type JSX } from 'react';
+import { useLocation } from 'react-router-dom';
 import Button from '../Buttons/button';
 
 export default function SynapseHeader(): JSX.Element {
