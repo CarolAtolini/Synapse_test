@@ -1,0 +1,31 @@
+/* Estilos globais */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #e9f6fa;
+  --text-color: #333;
+  --bg-color: #f9f9f9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+
+/* Layout geral da página Chat */
+@import './styles/components/ChatAnswerArea.css';
+
+/* Página Synapse */
+@import './styles/components/Prompter.css';
+
+/* Página com barra lateral */
+@import './styles/components/Sidebar.css';
+
+/* Componentes reutilizáveis */
+@import './styles/components/Button.css';
+@import './styles/components/Cards/card.css';
+@import './styles/components/Dropdown/dropdown.css';
